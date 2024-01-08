@@ -11,7 +11,7 @@ $(function(){
 				label: '# of Votes',
 				data: [12, 19, 3, 5, 2, 3],
 				backgroundColor: [
-					'#f6822d',
+					'#101484',
 					'#353847',
 					'#7f2df6',
 					'#1bd790',
