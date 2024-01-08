@@ -175,7 +175,7 @@ h5 {
 	background: #58c9e9;
 }
 .ctm-bg-success {
-	background: #62d03a;
+	background: #3daf13;
 }
 .ctm-border-radius {
 	border-radius: 10px;
@@ -843,8 +843,6 @@ a .avatar:hover > img {
 	padding: 0 40px 0 20px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	-moz-appearance: none;
-	-webkit-appearance: none;
 	cursor: pointer;
 }
 .header-wrapper .nav-arrow {
