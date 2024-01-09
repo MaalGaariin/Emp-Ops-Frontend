@@ -1,0 +1,78 @@
+/* For Announcement Card */
+.announce-body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .announce-body {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.announce-body .announce-card {
+    background-color: lightskyblue;
+    border: 2px solid rgb(44, 7, 146);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    width: 90%;
+    max-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .announce-body .announce-card {
+        width: 45%;
+    }
+}
+
+.announce-body .announce-card:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.announce-body .announce-card {
+    animation: 1s ease-out 0s 1 slideIn;
+}
+
+.announce-body img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.announce-body h3 {
+    margin: 10px 0;
+}
+
+.announce-body hr {
+    border: 1px solid white;
+    width: 100%;
+}
+
+.announce-body p {
+    margin: 10px 0;
+    text-align: center;
+}
