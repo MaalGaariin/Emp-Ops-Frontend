@@ -18,7 +18,7 @@
 }
 
 .announce-body .announce-card {
-    background-color: lightskyblue;
+    background-color: rgb(137, 198, 255);
     border: 2px solid rgb(44, 7, 146);
     border-radius: 10px;
     padding: 10px;
@@ -65,6 +65,7 @@
 
 .announce-body h3 {
     margin: 10px 0;
+    color: black;
 }
 
 .announce-body hr {
@@ -75,4 +76,29 @@
 .announce-body p {
     margin: 10px 0;
     text-align: center;
+    color: black;
+}
+
+.announce-card .edit-btn,
+.announce-card .delete-btn {
+    max-width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.announce-card .edit-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.announce-card .delete-btn {
+    background-color: #f44336; /* Red */
+}
+
+.announce-card .edit-btn:hover,
+.announce-card .delete-btn:hover {
+    opacity: 0.6;
 }

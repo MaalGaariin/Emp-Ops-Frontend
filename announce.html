@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Announcements</title>
     <link rel="stylesheet" href="/assets/css/announce-style.css">
+    <style>
+        .announce-card .edit-btn,
+        .announce-card .delete-btn {
+            max-width: 100%;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .announce-card .edit-btn {
+            background-color: #4CAF50; /* Green */
+        }
+
+        .announce-card .delete-btn {
+            background-color: #f44336; /* Red */
+        }
+
+        .announce-card .edit-btn:hover,
+        .announce-card .delete-btn:hover {
+            opacity: 0.6;
+        }
+    </style>
 </head>
 <body>
     <div class="announce-body">
@@ -17,6 +42,8 @@
             <p>
                 Description for Announcement 1.
             </p>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
         </div>
 
         <div class="announce-card">
@@ -28,6 +55,8 @@
             <p>
                 Description for Announcement 2.
             </p>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
         </div>
         <div class="announce-card">
             <img src="/assets/img/profiles/img-5.jpg" alt="empops Logo">
@@ -38,6 +67,8 @@
             <p>
                 Description for Announcement 3.
             </p>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
         </div>
 
         <div class="announce-card">
@@ -49,6 +80,8 @@
             <p>
                 Description for Announcement 4.
             </p>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
         </div>
     </div>
 </body>
